@@ -1,0 +1,48 @@
+
+/*///////// TIMETABLE /////////*/
+
+                                                    /*  TABLE */
+table{
+    padding-top: 5vw;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-family: Calibri, system-ui;
+}
+                                                    /* TD */
+td{
+    font-size: 2vw;
+    padding: 0.3vw;
+    text-align: center;
+}
+                                                    /* TR . PRED */
+td.pred{
+        border-width: 0.2vw;
+        border-style: solid;
+        border-color: #4685ff;
+}
+                                                    /* TR . CVIC */
+td.cvic{
+    border-width: 0.2vw;
+    border-style: solid;
+    border-color: #4cff46;
+}
+                                                    /* TR . TK */
+td.tk{
+    border-width: 0.2vw;
+    border-style: solid;
+    border-color: #ff4668;
+}
+                                                    /* TR . TD */
+td.time {
+        background: black;
+        color: white;
+}
+                                                    /* TR ODD//EVEN */
+tr:nth-of-type(odd) {
+    background: #e7e5e5;
+}
+
+tr:nth-of-type(even) {
+    background: whitesmoke;
+}

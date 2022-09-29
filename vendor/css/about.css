@@ -1,0 +1,32 @@
+
+/*///////// ABOUT /////////*/
+
+body {
+    font-family: tahoma;
+    color: #333;
+    overflow: hidden;
+}
+
+.container {
+    margin: 1vw;
+    width: 98%;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    float: right;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.text {
+    text-align: justify;
+    font-family: Calibri;
+    font-size: 100%;
+}
+h2 {
+    font-size: 200%;
+    font-family: "Lucida Console", Calibri, system-ui;
+    text-align: left;
+}
