@@ -1,0 +1,64 @@
+
+/*///////// ABOUT /////////*/
+
+
+html {
+    background-image: url('../../scr/dot_grid.png');
+    background-size: 20%;
+
+}
+
+.container {
+    margin: 1vw;
+    width: 98%;
+}
+
+img{
+    width: 300px;
+    height: 450px;
+    float: right;
+    margin: 1em;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.4);
+}
+
+.text {
+    text-align: justify;
+    font-size: 120%;
+    margin: 1em;
+}
+h2 {
+    font-size: 200%;
+    padding: 1em;
+    float: none;
+    margin: 0;
+}
+.quote {
+    font-size: 100%;
+    text-align: center;
+    margin: 1em;
+    font-style: italic;
+    float: left;
+    display: flex;
+}
+.auth {
+    font-size: 80%;
+    color: gray(30);
+    padding-left: 1em;
+}
+
+/*Mobile modes*/
+@media screen and (max-width: 530px) {
+    img{
+        float: none;
+        margin: auto;
+        display: block;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    img{
+        width: 150px;
+        height: 225px;
+    }
+}

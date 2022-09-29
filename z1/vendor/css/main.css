@@ -1,0 +1,68 @@
+
+/*///////// MAIN /////////*/
+
+html {
+    overflow-y: auto;
+    font-family: Tahoma;
+}
+
+body {
+    margin: 0;
+}
+div.navbar{
+    background: black;
+    text-align: left;
+    width: 100%;
+    top: 50%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.5em;
+    background-image: url('../../scr/nav.jpg');
+    background-size: 100%;
+
+
+}
+
+div.navbar a {
+
+    color: white;
+    transition: 0.1s;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+
+div.navbar a:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*footer {
+    height: 2vw;
+    background-color: ghostwhite;
+    bottom: 0vw;
+    left: 0vw;
+    right: 0vw;
+    margin-bottom: 0vw;
+    text-align: right;
+    color: #dcdce3;
+    font-size: 1vw;
+    text-align: right;
+}*/
+
+
+/*Mobile modes*/
+@media screen and (max-width: 530px) {
+    div.navbar{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    div.navbar{
+        font-size: 0.7em;
+    }
+}
