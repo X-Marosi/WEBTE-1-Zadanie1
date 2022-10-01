@@ -9,6 +9,7 @@ html {
 body {
     margin: 0;
 }
+/* Style of top navbar */
 div.navbar{
     background: black;
     text-align: left;
@@ -22,9 +23,8 @@ div.navbar{
 
 
 }
-
+/* Style of top navigation bar elements */
 div.navbar a {
-
     color: white;
     transition: 0.1s;
     text-decoration: none;
@@ -40,21 +40,8 @@ div.navbar a:hover {
     background: rgba(0, 0, 0, 0.5);
 }
 
-/*footer {
-    height: 2vw;
-    background-color: ghostwhite;
-    bottom: 0vw;
-    left: 0vw;
-    right: 0vw;
-    margin-bottom: 0vw;
-    text-align: right;
-    color: #dcdce3;
-    font-size: 1vw;
-    text-align: right;
-}*/
-
-
-/*Mobile modes*/
+/* Mobile modes */
+/* Shrink font to fit narrow screens */
 @media screen and (max-width: 530px) {
     div.navbar{
         font-size: 1em;

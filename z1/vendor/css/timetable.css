@@ -19,30 +19,30 @@ td{
     padding: 0.3vw;
     text-align: center;
 }
-                                                    /* TR . PRED */
-td.pred{
+                                                    /* PRED */
+.pred{
         border-width: 0.2vw;
         border-style: solid;
         border-color: #4685ff;
 }
-                                                    /* TR . CVIC */
-td.cvic{
+                                                    /* CVIC */
+.cvic{
     border-width: 0.2vw;
     border-style: solid;
     border-color: #4cff46;
 }
-                                                    /* TR . TK */
-td.tk{
+                                                    /*  TK */
+.tk{
     border-width: 0.2vw;
     border-style: solid;
     border-color: #ff4668;
 }
-                                                    /* TR . TD */
-td.time {
+                                                    /* TD */
+.time {
         background: black;
         color: white;
 }
-                                                    /* TR ODD//EVEN */
+                                                    /* ODD//EVEN */
 tr:nth-of-type(odd) {
     background: #e7e5e5;
 }

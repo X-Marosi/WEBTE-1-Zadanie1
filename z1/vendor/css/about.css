@@ -5,7 +5,6 @@
 html {
     background-image: url('../../src/dot_grid.png');
     background-size: 20%;
-
 }
 
 .container {
@@ -37,6 +36,7 @@ h2 {
     float: none;
     margin: 0;
 }
+
 .quote {
     font-size: 100%;
     text-align: center;
@@ -45,6 +45,7 @@ h2 {
     float: left;
     display: flex;
 }
+
 .auth {
     font-size: 80%;
     color: gray(30);
@@ -52,6 +53,7 @@ h2 {
 }
 
 /*Mobile modes*/
+/* Place the image above the text */
 @media screen and (max-width: 530px) {
     img{
         float: none;
@@ -60,7 +62,7 @@ h2 {
 
     }
 }
-
+/* Shrink the image */
 @media screen and (max-width: 360px) {
     img{
         width: 150px;

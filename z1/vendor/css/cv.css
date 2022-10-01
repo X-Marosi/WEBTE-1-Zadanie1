@@ -8,6 +8,8 @@ html {
     background-size: 20%;
 }
 
+/* The part of the page containing the CV */
+
 .sub_body {
     display: flex;
     justify-content: center;
@@ -15,6 +17,7 @@ html {
     min-height: 100vh;
     cursor: default;
 }
+ /* Container for the left and right sides of the CV */
 
 .container {
     box-sizing: border-box;
@@ -29,15 +32,12 @@ html {
     box-shadow: 0 35px 50px rgba(0, 0, 0, 0.2);
 }
 
+/* Left side of CV */
+
 .cv_margin {
     position: relative;
     background-image: url('../../src/dark_nav.jpg');
     background-size: 500%;
-    padding: 40px;
-}
-
-.cv_main {
-    position: relative;
     padding: 40px;
 }
 
@@ -127,6 +127,13 @@ h3{
     background: whitesmoke;
 }
 
+/* Right side of CV */
+
+.cv_main {
+    position: relative;
+    padding: 40px;
+}
+
 h4 {
     color: black;
     margin-bottom: 20px;
@@ -145,6 +152,7 @@ h4 {
 .right_list {
     position: relative;
 }
+
 .right_subtext {
     list-style: none;
     position: relative;
@@ -168,7 +176,9 @@ h4 {
     background: #2d2d2d;
 }
 
-/*Mobile modes*/
+/*Mobile switch*/
+/* Places the left and right columns of the CV below each other */
+
 @media screen and (max-width: 1000px) {
     .container{
         grid-template-columns: repeat(1, 1fr);
