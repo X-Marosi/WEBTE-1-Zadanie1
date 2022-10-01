@@ -1,6 +1,10 @@
 
 /*///////// TIMETABLE /////////*/
 
+html{
+    background-image: url('../../src/dot_grid.png');
+    background-size: 20%;
+}
                                                     /*  TABLE */
 table{
     padding-top: 5vw;

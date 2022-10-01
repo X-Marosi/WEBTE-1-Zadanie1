@@ -3,7 +3,7 @@
 
 
 html {
-    background-image: url('../../scr/dot_grid.png');
+    background-image: url('../../src/dot_grid.png');
     background-size: 20%;
 
 }
@@ -26,6 +26,11 @@ img{
     font-size: 120%;
     margin: 1em;
 }
+
+.text span {
+    font-weight: 600;
+}
+
 h2 {
     font-size: 200%;
     padding: 1em;
