@@ -1,2 +1,39 @@
 
 /*///////// INTERACTIVE /////////*/
+
+html {
+    background-image: url('../../src/dot_grid.png');
+    background-size: 20%;
+}
+
+
+img {
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.hover{
+    border: solid 1px cyan;
+    padding: 4%;
+    width: 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transform: translate(325%,-445%);
+
+}
+
+.hover:hover{
+    border: solid 1px yellow;
+}
+
+
+/* Mobile switch */
+@media screen and (max-width: 530px) {
+    img {
+        width: 100%;
+   }
+    .hover {
+        transform: translate(290%,-500%);
+    }
+}
