@@ -14,16 +14,18 @@ img {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
-.hover{
+.hoverable_box{
     border: solid 1px cyan;
     padding: 4%;
     width: 0;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-    transform: translate(325%,-445%);
-
 }
 
-.hover:hover{
+#keanu {
+    transform: translate(325%,-445%);
+}
+
+.hoverable_box:hover{
     border: solid 1px yellow;
 }
 
@@ -33,7 +35,7 @@ img {
     img {
         width: 100%;
    }
-    .hover {
+    #keanu {
         transform: translate(290%,-500%);
     }
 }
