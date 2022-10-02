@@ -2,13 +2,9 @@
 /*///////// ABOUT /////////*/
 
 
-html {
-    background-image: url('../../src/dot_grid.png');
-    background-size: 20%;
-}
+.hoverable_box#001
 
 .container {
-    margin: 1vw;
     width: 98%;
 }
 

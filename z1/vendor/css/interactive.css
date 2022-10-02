@@ -15,6 +15,7 @@ img {
 }
 
 .hoverable_box{
+    position: absolute;
     border: solid 1px cyan;
     padding: 4%;
     width: 0;
@@ -23,6 +24,21 @@ img {
 
 #keanu {
     transform: translate(325%,-445%);
+}
+#vincent {
+    transform: translate(470%,-445%);
+}
+#joker {
+    transform: translate(1000%,-520%);
+}
+#dog {
+    transform: translate(910%,-335%);
+}
+#patrick {
+    transform: translate(90%,-210%);
+}
+#baby_yoda {
+    transform: translate(550%, -200%);
 }
 
 .hoverable_box:hover{
@@ -37,5 +53,20 @@ img {
    }
     #keanu {
         transform: translate(290%,-500%);
+    }
+    #vincent {
+        transform: translate(435%,-500%);
+    }
+    #joker {
+        transform: translate(1000%,-575%);
+    }
+    #dog {
+        transform: translate(910%,-365%);
+    }
+    #patrick {
+        transform: translate(40%,-240%);
+    }
+    #baby_yoda {
+        transform: translate(520%, -220%);
     }
 }
