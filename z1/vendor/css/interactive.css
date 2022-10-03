@@ -22,12 +22,55 @@ img {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+
+.character_subtext {
+    font-size: 80%;
+    font-weight: 500;
+}
+.character_title{
+    color: #a8a8a8;
+    font-style: italic;
+}
+
+.popup {
+    position: absolute;
+    width: 15%;
+    height: 10em;
+    left: 0;
+    opacity: 0;
+    padding: 1%;
+    margin-top: 10%;
+    background: rgba(0, 0, 0, 0.7);
+    border: solid 1px yellow;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+
 #keanu {
     transform: translate(325%,-445%);
 }
+#keanu_p {
+
+    transform: translate( 154%,-300%);
+}
+#keanu:hover + .popup {
+    opacity: 1;
+}
+
 #vincent {
     transform: translate(470%,-445%);
 }
+#vincent_p {
+    transform: translate( 280%,-327%);
+    height: 12em;
+}
+#vincent:hover + .popup {
+    opacity: 1;
+}
+
 #joker {
     transform: translate(1000%,-520%);
 }
@@ -54,9 +97,17 @@ img {
     #keanu {
         transform: translate(290%,-500%);
     }
+    #keanu_p {
+        transform: translate( 140%,-335%);
+    }
+
     #vincent {
         transform: translate(435%,-500%);
     }
+    #vincent_p {
+        transform: translate( 268%,-360%);
+    }
+
     #joker {
         transform: translate(1000%,-575%);
     }
