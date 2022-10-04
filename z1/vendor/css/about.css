@@ -16,20 +16,25 @@ img{
 .text {
     text-align: justify;
     font-size: 120%;
-    margin: 1em;
+    margin: 2%;
 }
 
-.text span {
-    font-weight: 600;
-}
+
 
 h2 {
     font-size: 200%;
-    padding: 1em;
+    padding: 2% 0 2% 2%;
     float: none;
     margin: 0;
 }
 
+.bold {
+    font-weight: 600;
+}
+
+.lorem {
+    color: #494949;
+}
 .quote {
     font-size: 100%;
     text-align: center;
