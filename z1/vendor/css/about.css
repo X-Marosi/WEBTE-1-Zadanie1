@@ -5,12 +5,12 @@
     width: 98%;
 }
 
-img{
+.profile_pic{
     width: 300px;
     height: 450px;
     float: right;
     margin: 1em;
-    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.4);
+    box-shadow: 0.4em 0.4em 0.8em rgba(0, 0, 0, 0.4);
 }
 
 .text {
@@ -18,8 +18,6 @@ img{
     font-size: 120%;
     margin: 2%;
 }
-
-
 
 h2 {
     font-size: 200%;
@@ -35,6 +33,7 @@ h2 {
 .lorem {
     color: #494949;
 }
+
 .quote {
     font-size: 100%;
     text-align: center;
@@ -42,6 +41,7 @@ h2 {
     font-style: italic;
     float: left;
     display: flex;
+    padding-bottom: 1em;
 }
 
 .auth {
@@ -51,19 +51,34 @@ h2 {
 }
 
 /*Mobile modes*/
-/* Place the image above the text */
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 858px) {
+    .quote {
+        float: none;
+        padding-top: 2em;
+        margin: auto auto 2em;
+    }
+}
+
+@media screen and (max-width: 710px) {
     img{
         float: none;
         margin: auto;
         display: block;
-
+    }
+    h2 {
+        margin-bottom: 0.5em;
     }
 }
-/* Shrink the image */
+
 @media screen and (max-width: 360px) {
     img{
         width: 150px;
         height: 225px;
+    }
+    .text {
+        font-size: 100%;
+    }
+    .quote {
+        font-size: 100%;
     }
 }

@@ -1,11 +1,6 @@
 
 /*///////// TIMETABLE /////////*/
 
-html{
-    background-image: url('../../src/dot_grid.png');
-    background-size: 20%;
-}
-                                                    /*  TABLE */
 table{
     padding-top: 5vw;
     width: fit-content;
@@ -13,36 +8,36 @@ table{
     margin: auto;
     float: none;
 }
-                                                    /* TD */
-td{
+
+td {
     font-size: 1.8vw;
     padding: 0.3vw;
     text-align: center;
 }
-                                                    /* PRED */
-.pred{
+
+.pred {
         border-width: 0.2vw;
         border-style: solid;
         border-color: #4685ff;
 }
-                                                    /* CVIC */
-.cvic{
+
+.cvic {
     border-width: 0.2vw;
     border-style: solid;
     border-color: #4cff46;
 }
-                                                    /*  TK */
-.tk{
+
+.tk {
     border-width: 0.2vw;
     border-style: solid;
     border-color: #ff4668;
 }
-                                                    /* TD */
+
 .time {
         background: black;
         color: white;
 }
-                                                    /* ODD//EVEN */
+
 tr:nth-of-type(odd) {
     background: #e7e5e5;
 }

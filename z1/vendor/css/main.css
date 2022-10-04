@@ -4,6 +4,8 @@
 html {
     overflow-y: auto;
     font-family: Tahoma, sans-serif;
+    background-image: url('../../src/dot_grid.png');
+    background-size: 20%;
 }
 
 body {
