@@ -33,8 +33,9 @@ img {
     opacity: 0;
     padding: 1%;
     margin-top: 10%;
-    background: rgba(0, 0, 0, 0.7);
-    border: solid 1px yellow;
+    background-image: url(../../src/blackprint.png);
+    background-size: cover;
+    border: solid 1px #ff003c;
     color: white;
     text-align: left;
     font-weight: 600;
@@ -55,7 +56,7 @@ img {
     transform: translate(470%,-445%);
 }
 #vincent_p {
-    transform: translate( 280%,-327%);
+    transform: translate( 280%,-324%);
     height: 12em;
 }
 #vincent:hover + .popup {
@@ -66,7 +67,7 @@ img {
     transform: translate(1000%,-520%);
 }
 #joker_p {
-    transform: translate( 360%,-431%);
+    transform: translate( 365%,-427%);
     height: 10em;
 }
 #joker:hover + .popup {
@@ -77,7 +78,7 @@ img {
     transform: translate(910%,-335%);
 }
 #dog_p {
-    transform: translate( 378%,-175%);
+    transform: translate( 379.5%,-175%);
     height: 14em;
 }
 #dog:hover + .popup {
@@ -88,7 +89,7 @@ img {
     transform: translate(90%,-210%);
 }
 #patrick_p {
-    transform: translate( 100%,-192%);
+    transform: translate( 100%,-190%);
     height: 12em;
 }
 #patrick:hover + .popup {
@@ -99,7 +100,7 @@ img {
     transform: translate(550%, -200%);
 }
 #baby_yoda_p {
-    transform: translate( 320%,-220%);
+    transform: translate( 320%,-219%);
     height: 13em;
 }
 #baby_yoda:hover + .popup {
