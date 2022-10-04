@@ -108,6 +108,14 @@ img {
 
 .hoverable_box:hover{
     border: solid 1px yellow;
+    //add shadow on all sides
+}
+
+.source {
+    text-decoration: none;
+    color: #606060;
+    margin: 1%;
+    font-size: 70%;
 }
 
 /* Mobile switch */
