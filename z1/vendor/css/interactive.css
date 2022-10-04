@@ -74,14 +74,45 @@ img {
 #joker {
     transform: translate(1000%,-520%);
 }
+#joker_p {
+    transform: translate( 360%,-431%);
+    height: 10em;
+}
+#joker:hover + .popup {
+    opacity: 1;
+}
+
 #dog {
     transform: translate(910%,-335%);
 }
+#dog_p {
+    transform: translate( 378%,-175%);
+    height: 14em;
+}
+#dog:hover + .popup {
+    opacity: 1;
+}
+
 #patrick {
     transform: translate(90%,-210%);
 }
+#patrick_p {
+    transform: translate( 100%,-192%);
+    height: 12em;
+}
+#patrick:hover + .popup {
+    opacity: 1;
+}
+
 #baby_yoda {
     transform: translate(550%, -200%);
+}
+#baby_yoda_p {
+    transform: translate( 320%,-220%);
+    height: 13em;
+}
+#baby_yoda:hover + .popup {
+    opacity: 1;
 }
 
 .hoverable_box:hover{
@@ -111,13 +142,28 @@ img {
     #joker {
         transform: translate(1000%,-575%);
     }
+    #joker_p {
+        transform: translate(370%,-470%);
+    }
+
     #dog {
         transform: translate(910%,-365%);
     }
+    #dog_p {
+        transform: translate( 384%,-188%);
+    }
+
     #patrick {
         transform: translate(40%,-240%);
     }
+    #patrick_p {
+        transform: translate( 80%,-210%);
+    }
+
     #baby_yoda {
         transform: translate(520%, -220%);
+    }
+    #baby_yoda_p {
+        transform: translate( 310%,-228%);
     }
 }
