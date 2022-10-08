@@ -8,7 +8,7 @@
 .profile_pic{
     width: 300px;
     height: 450px;
-    float: right;
+    float: left;
     margin: 1em;
     box-shadow: 0.4em 0.4em 0.8em rgba(0, 0, 0, 0.4);
 }

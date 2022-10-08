@@ -75,6 +75,10 @@ p {
 .contacts {
     padding-top: 10px;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 
 h3{
     padding-top: 20px;

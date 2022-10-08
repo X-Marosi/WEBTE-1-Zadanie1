@@ -1,4 +1,3 @@
-
 /*///////// MAIN /////////*/
 
 html {
@@ -12,7 +11,7 @@ body {
     margin: 0;
 }
 /* Style of top navbar */
-div.navbar{
+.navbar {
     text-align: left;
     width: 100%;
     top: 50%;
@@ -25,7 +24,8 @@ div.navbar{
 /* Style of top navigation bar elements */
 div.navbar a {
     color: white;
-    transition: 0.1s;
+    
+    transition: 0.5s;
     text-decoration: none;
     padding: 0.5em 1em;
 }
