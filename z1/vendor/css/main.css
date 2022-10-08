@@ -9,8 +9,10 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
+    min-height: 100%;
 }
-/* Style of top navbar */
+
 .navbar {
     text-align: left;
     width: 100%;
@@ -20,12 +22,11 @@ body {
     font-size: 1.5em;
     background-image: url('../../src/nav.jpg');
     background-size: 100%;
+    text-decoration: none;
 }
-/* Style of top navigation bar elements */
-div.navbar a {
+/* Style of top nav elements */
+.navbar a {
     color: white;
-    
-    transition: 0.5s;
     text-decoration: none;
     padding: 0.5em 1em;
 }
@@ -35,16 +36,24 @@ div.navbar a:hover {
     background: rgba(0, 0, 0, 0.5);
 }
 
-/* Mobile modes */
-/* Shrink font to fit narrow screens */
+/* Mobile switch */
 @media screen and (max-width: 530px) {
-    div.navbar{
+    .navbar{
         font-size: 1em;
     }
 }
-
 @media screen and (max-width: 360px) {
-    div.navbar{
+    .navbar{
         font-size: 0.7em;
     }
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-size: 100%;
+    text-align: center;
+    font-size: 80%;
+    color: gray;
 }

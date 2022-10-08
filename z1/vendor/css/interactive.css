@@ -41,7 +41,7 @@ img {
     text-align: left;
     font-weight: 600;
     font-size: 1vw;
-    transition: 0.5s;
+    transition: opacity 0.5s;
 }
 
 #keanu {
@@ -115,9 +115,10 @@ img {
 }
 
 .source {
+    text-align: center;
     text-decoration: none;
     color: #606060;
-    margin: 1%;
+    margin: auto;
     font-size: 70%;
 }
 

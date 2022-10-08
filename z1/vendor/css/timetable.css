@@ -1,12 +1,16 @@
 
 /*///////// TIMETABLE /////////*/
 
+footer{
+    position: absolute;}
+
 table{
     padding-top: 5vw;
     width: fit-content;
     height: fit-content;
     margin: auto;
     float: none;
+    overflow-x: auto
 }
 
 td {

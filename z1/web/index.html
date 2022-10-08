@@ -2,19 +2,15 @@
 
 <html lang="sk">
     <head>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=.5, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
         <title>Home</title>
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="../vendor/css/main.css">
+        <link rel="stylesheet" type="text/css" href="../vendor/css/about.css">
     </head>
 
     <body>
-        <link rel="stylesheet" type="text/css" href="../vendor/css/main.css">
-        <link rel="stylesheet" type="text/css" href="../vendor/css/about.css">
-
         <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="cv.html">My CV</a>
@@ -22,7 +18,7 @@
             <a href="interactive.html">Pictures</a>
         </nav>
 
-        <h2>About me</h2>
+        <h2 class="page_title">About me</h2>
 
        <div class="container">
            <img class="profile_pic" src="../src/prof.jpeg" alt="Profile">
@@ -35,18 +31,21 @@
                I started with wrestling for about 3 years and won several awards; then I switched to bodybuilding. Altogether I have been
                training naturally for 5 years. I haven't competed yet, but I am planning to do so in the future, maybe after I finish my studies.
                Keeping up my training is very challenging at the moment because of collage, but I am trying to do my best.
-               <br><br><span class="bold">My hobbies are:</span>
-               <ul>
-                   <li>Programming</li>
-                   <li>Cycling</li>
-                   <li>Reading</li>
-                   <li>Playing video games</li>
-                   <li>Computers</li>
-                   <li>Health and fitness</li>
-               </ul>
+
+               <div class="list_container">
+                   <p class="bold">My hobbies are:</p>
+                   <ul>
+                       <li>Programming</li>
+                       <li>Cycling</li>
+                       <li>Reading</li>
+                       <li>Playing video games</li>
+                       <li>Computers</li>
+                       <li>Health and fitness</li>
+                   </ul>
+              </div>
                <br><span class="bold">Diacritics </span> - The Slovak alphabet is available within the ISO/IEC 8859-2 “Latin-2” encoding. Upper case: Á, Ä, Č, Ď, É, Í, Ĺ, Ľ, Ň, Ó, Ô, Ŕ, Š, Ť, Ú, Ý, Ž
                Lower case: á, ä, č, ď, é, í, ĺ, ľ, ň, ó, ô, ŕ, š, ť, ú, ý, ž.
-               <span class="lorem">
+               <p class="lorem">
                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec quam quam. Maecenas sit amet faucibus erat. Etiam justo augue, rutrum in mollis in,
                    dictum sit amet elit. Vestibulum fermentum bibendum hendrerit. Aenean ut nibh ligula. Phasellus enim turpis, ullamcorper a pretium et, tincidunt vitae
                    eros. Ut vitae ligula id nunc varius facilisis in ac ipsum. Nam vel velit in lectus facilisis placerat. Donec ac placerat ligula. Aenean quis felis dolor.
@@ -54,13 +53,13 @@
                    ipsum dolor sit amet, consectetur adipiscing elit. Ut nec quam quam. Maecenas sit amet faucibus erat. Etiam justo augue, rutrum in mollis in, dictum sit
                    amet elit. Vestibulum fermentum bibendum hendrerit. Aenean ut nibh ligula. Phasellus enim turpis, ullamcorper a pretium et, tincidunt
                    vitae eros.
-               </span>
+               </p>
                <aside>
                    <div class="quote">
                        "The universe is change; life is your perception of it." <div class="auth"> Marcus Aurelius </div>
                    </div>
                </aside>
-               <span class="lorem">
+               <p class="lorem">
                    Sed pretium, mauris non rutrum sollicitudin, urna libero pharetra sapien, id fringilla quam risus ac dolor. Mauris faucibus vestibulum egestas.
                    orem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec quam quam. Maecenas sit amet faucibus erat. Etiam justo augue, rutrum in mollis in,
                    dictum sit amet elit. Vestibulum fermentum bibendum hendrerit. Aenean ut nibh ligula. Phasellus enim turpis, ullamcorper a pretium et, tincidunt
@@ -68,9 +67,12 @@
                    orem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec quam quam. Maecenas sit amet faucibus erat. Etiam justo augue, rutrum in mollis in,
                    dictum sit amet elit. Vestibulum fermentum bibendum hendrerit. Aenean ut nibh ligula. Phasellus enim turpis, ullamcorper a pretium et, tincidunt
                    vitae eros.
-               </span>
+               </p>
            </article>
-       </div>`
+       </div>
+        <footer>
+            <p>© 2022 Peter Marosi</p>
+        </footer>
     </body>
 </html>
 
