@@ -1,4 +1,3 @@
-
 /*///////// INTERACTIVE /////////*/
 
 img {
@@ -111,7 +110,6 @@ img {
 
 .hoverable_box:hover{
     border: solid 1px yellow;
-    //add shadow on all sides
 }
 
 .source {
