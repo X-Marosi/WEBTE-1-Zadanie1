@@ -34,7 +34,7 @@ img {
     opacity: 0;
     padding: 1%;
     margin-top: 10%;
-    background-image: url(../../src/blackprint.png);
+    background-image: url(../src/blackprint.png);
     background-size: cover;
     border: solid 1px #ff003c;
     color: white;

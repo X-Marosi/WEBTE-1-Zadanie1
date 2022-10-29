@@ -31,7 +31,7 @@ html {
 /* Left side of CV */
 .cv_margin {
     position: relative;
-    background-image: url('../../src/dark_nav.jpg');
+    background-image: url('../src/dark_nav.jpg');
     background-size: 500%;
     padding: 40px;
 }

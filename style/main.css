@@ -3,7 +3,7 @@
 html {
     overflow-y: auto;
     font-family: Tahoma, sans-serif;
-    background-image: url('../../src/dot_grid.png');
+    background-image: url('../src/dot_grid.png');
     background-size: 20%;
 }
 
@@ -20,7 +20,7 @@ body {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     font-size: 1.5em;
-    background-image: url('../../src/nav.jpg');
+    background-image: url('../src/nav.jpg');
     background-size: 100%;
     text-decoration: none;
 }
